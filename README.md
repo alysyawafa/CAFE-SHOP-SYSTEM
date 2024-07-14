@@ -12,12 +12,17 @@ This project consists of two interconnected applications with a shared database,
 ### 1. Cafe Application
 - **Purpose:** Manage and process orders within the cafe.
 - **Main Functions:**
-  - Place an order
+  - Insert the order details
+  - Insert the customer details
   - View order status
   - Update order status (e.g., from "pending" to "preparing")
+  - View delivery status
+  - Update delivery status (e.g., from "Accept" to "Reject")
+  - Place an order
 
 ### 2. Delivery Application
 - **Purpose:** Manage and fulfill delivery tasks for the cafe orders.
 - **Main Functions:**
   - View assigned delivery tasks
-  - Update delivery status (e.g., from "in transit" to "delivered")
+  - Update delivery status (e.g., from "Accept" to "Reject")
+  - View delivery task
