@@ -32,24 +32,25 @@ This project consists of two interconnected applications with a shared database,
   - The Architecture diagram for the middleware (backend service) can be seen at Middleware.png
 
 ### 4. Middleware Communication
-The Cafe and Delivery applications communicate using sockets to ensure real-time data distribution.
+    The Cafe and Delivery applications communicate using sockets to ensure real-time data distribution.
 
 ### List of URL Endpoints
 ### Cafe Application Endpoints
-- `POST /orders`: Create a new order
-- `GET /orders/{id}`: Get the status of a specific order
-- `PUT /orders/{id}`: Update the status of a specific order
+    - `POST /orders`: Create a new order
+    - `GET /orders/{id}`: Get the status of a specific order
+    - `PUT /orders/{id}`: Update the status of a specific order
 
 ### Delivery Application Endpoints
-- `GET /deliveries`: Get all delivery tasks
-- `GET /deliveries/{id}`: Get the status of a specific delivery
-- `PUT /deliveries/{id}`: Update the status of a specific delivery
+    - `GET /deliveries`: Get all delivery tasks
+    - `GET /deliveries/{id}`: Get the status of a specific delivery
+    - `PUT /deliveries/{id}`: Update the status of a specific delivery
+
 
 ### Middleware Functions/Features
-- **Order Management:**
-  - Receive new orders from the Cafe application
-  - Notify the Delivery application of new delivery tasks
+    - **Order Management:**
+      - Receive new orders from the Cafe application
+      - Notify the Delivery application of new delivery tasks
 
-- **Delivery Management:**
-  - Update delivery status and notify the Cafe application of status changes
+    - **Delivery Management:**
+      - Update delivery status and notify the Cafe application of status changes
   
