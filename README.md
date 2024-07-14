@@ -26,3 +26,8 @@ This project consists of two interconnected applications with a shared database,
   - View assigned delivery tasks
   - Update delivery status (e.g., from "Accept" to "Reject")
   - View delivery task
+
+### 3. Architecture diagram apps and the middleware
+  - The Architecture diagram for Cafe and Delivery App can be seen at Architecture diagram.png
+  - The Architecture diagram for the middleware (backend service) can be seen at Middleware.png
+  
