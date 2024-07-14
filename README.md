@@ -1,2 +1,23 @@
 # CAFE-SHOP-SYSTEM
 BITP3123 PROJECT
+
+# Cafe and Delivery Applications Project
+
+## Project Overview
+
+This project consists of two interconnected applications with a shared database, designed to simulate a Cafe ordering system and a Delivery system. The Cafe application is used by staff to manage orders, while the Delivery application is used by riders to fulfill delivery tasks.
+
+## Applications Involved
+
+### 1. Cafe Application
+- **Purpose:** Manage and process orders within the cafe.
+- **Main Functions:**
+  - Place an order
+  - View order status
+  - Update order status (e.g., from "pending" to "preparing")
+
+### 2. Delivery Application
+- **Purpose:** Manage and fulfill delivery tasks for the cafe orders.
+- **Main Functions:**
+  - View assigned delivery tasks
+  - Update delivery status (e.g., from "in transit" to "delivered")
