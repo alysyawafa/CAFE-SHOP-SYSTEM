@@ -36,9 +36,9 @@ This project consists of two interconnected applications with a shared database,
 
   ### List of URL Endpoints
   ### Cafe Application Endpoints
-    - `POST /orders`: Create a new order
-    - `GET /orders/{id}`: Get the status of a specific order
-    - `PUT /orders/{id}`: Update the status of a specific order
+   - `POST /orders`: Create a new order
+   - `GET /orders/{id}`: Get the status of a specific order
+   - `PUT /orders/{id}`: Update the status of a specific order
 
   ### Delivery Application Endpoints
    - `GET /deliveries`: Get all delivery tasks
