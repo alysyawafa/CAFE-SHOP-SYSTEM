@@ -34,7 +34,7 @@ This project consists of two interconnected applications with a shared database,
 ### 4. Middleware Communication
   - The Cafe and Delivery applications communicate using sockets to ensure real-time data distribution.
 
-  ### List of URL Endpoints
+### 5. List of URL Endpoints
   ### Cafe Application Endpoints
    - `POST /orders`: Create a new order
    - `GET /orders/{id}`: Get the status of a specific order
