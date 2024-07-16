@@ -57,3 +57,5 @@ This project consists of two interconnected applications with a shared database,
 ### 7. Database and tables
    - Database name for our project is finalprojectbitp3123
    - We only have one table which is Order table that will track all the order from the apps
+
+### PRESENTATION YOUTUBE LINK:
