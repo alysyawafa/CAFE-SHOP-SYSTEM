@@ -46,7 +46,7 @@ This project consists of two interconnected applications with a shared database,
    - `PUT /deliveries/{id}`: Update the status of a specific delivery
 
 
-### 5. Middleware Functions/Features
+### 6. Middleware Functions/Features
    - **Order Management:**
      - Receive new orders from the Cafe application
      - Notify the Delivery application of new delivery tasks
@@ -54,6 +54,6 @@ This project consists of two interconnected applications with a shared database,
    - **Delivery Management:**
      - Update delivery status and notify the Cafe application of status changes
   
-### 6. Database and tables
+### 7. Database and tables
    - Database name for our project is finalprojectbitp3123
    - We only have one table which is Order table that will track all the order from the apps
