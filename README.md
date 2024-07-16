@@ -59,3 +59,4 @@ This project consists of two interconnected applications with a shared database,
    - We only have one table which is Order table that will track all the order from the apps
 
 ### PRESENTATION YOUTUBE LINK:
+https://youtu.be/b2QVaWB5RT8
