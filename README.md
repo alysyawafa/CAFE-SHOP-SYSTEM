@@ -5,7 +5,7 @@ BITP3123 PROJECT
 
 ## Project Overview
 
-This project consists of two interconnected applications with a shared database, designed to simulate a Cafe ordering system and a Delivery system. The Cafe application is used by staff to manage orders, while the Delivery application is used by riders to fulfill delivery tasks.
+This project consists of two interconnected applications with a shared database, designed to simulate a Cafe Ordering System and a Delivery System. The Cafe application is used by the staff to manage orders, while the Delivery application is used by riders to fulfill delivery tasks.
 
 ## Applications Involved
 
